@@ -1,0 +1,108 @@
+name: dondelucho
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+
+  flutter_localizations:
+    sdk: flutter
+  flutter_cupertino_localizations: ^1.0.1
+  provider: 
+  flutter_swiper: 
+  http: ^0.13.0
+  shared_preferences: 
+  #flutter_datetime_picker: ^1.5.0
+  font_awesome_flutter: 
+  intl: 
+  permission_handler: 
+  flutter_secure_storage: 
+  flutter_rating_bar: 
+  avatar_glow: 
+  webview_flutter: 
+  table_calendar: 
+  background_location:
+  flutter_barcode_scanner: 
+  esc_pos_utils: 
+  animate_do: 
+  pdf: 
+  printing: ^5.7.2
+  connectivity_plus: 
+  #pdf_render: 
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #flutter_launcher_icons: ^0.8.1
+  
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon-app.png"
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/icons/
+    - assets/new_service.mp3
+    
+
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400
+    - family: "Helvetica"
+      fonts:
+        - asset: assets/fonts/HelveticaLTStd-Roman.otf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/HelveticaLTStd-Bold.otf
+          weight: 700        
+        - asset: assets/fonts/HelveticaLTStd-Light.otf
+          weight: 300
+    - family: "Helvetica Rounded"
+      fonts:
+        - asset: assets/fonts/HelveticaRoundedLTStd-Bd.ttf
+          weight: 700
